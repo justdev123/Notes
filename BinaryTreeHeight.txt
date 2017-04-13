@@ -1,0 +1,17 @@
+Height of Binary tree
+perfect binary tree number of nodes doubles each level.
+so how many nodes do we have in last level.
+
+# of nodes in first level = 1
+# of nodes in last level = (n+1)/2
+
+height of tree = # of times we double 1 to get to (n+1)/2 
+h= log(n+1)/2
+
+consider when we have only 2 levels ,
+ # of times we have to double 1 to get to level2 is 1.
+
+so h = log(n+1)/2 +1
+     = log(n+1) - Log(2) +1
+     = log(n+1) -1 +1
+     = log(n+1)
